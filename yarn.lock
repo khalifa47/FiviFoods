@@ -7636,6 +7636,8 @@ __metadata:
     "@expo/metro-config": ^0.5.1
     "@react-navigation/native": ^6.1.1
     "@react-navigation/native-stack": ^6.9.7
+    "@sanity/client": ^3.4.1
+    "@sanity/image-url": ^1.0.1
     "@types/react": ~18.0.14
     "@types/react-native": ~0.70.6
     expo: ~47.0.8
