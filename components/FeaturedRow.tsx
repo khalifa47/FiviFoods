@@ -37,7 +37,6 @@ const FeaturedRow = ({
         setRestaurants(data?.restaurants);
       });
   }, []);
-  console.log(restaurants);
 
   return (
     <View>
@@ -72,43 +71,6 @@ const FeaturedRow = ({
             lat={restaurant.lat}
           />
         ))}
-
-        {/* <RestaurantCard
-          id={123}
-          imgUrl="https://links.papareact.com/gn7"
-          title="KFC"
-          rating={4.5}
-          genre="Fast Food"
-          address="123 Main St"
-          short_desc="Test description"
-          dishes={[]}
-          long={20}
-          lat={0}
-        />
-        <RestaurantCard
-          id={123}
-          imgUrl="https://links.papareact.com/gn7"
-          title="KFC"
-          rating={4.5}
-          genre="Fast Food"
-          address="123 Main St"
-          short_desc="Test description"
-          dishes={[]}
-          long={20}
-          lat={0}
-        />
-        <RestaurantCard
-          id={123}
-          imgUrl="https://links.papareact.com/gn7"
-          title="KFC"
-          rating={4.5}
-          genre="Fast Food"
-          address="123 Main St"
-          short_desc="Test description"
-          dishes={[]}
-          long={20}
-          lat={0}
-        /> */}
       </ScrollView>
     </View>
   );
